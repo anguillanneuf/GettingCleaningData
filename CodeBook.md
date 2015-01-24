@@ -2,14 +2,14 @@
 
 ####Subject 30
 
-#####  Subject ID
+  Subject ID
   
      1..30 .each different subject is assigned a number ID from 1 through 30
 
 
 ####Actvity 6
 
-#####  Acitivty Performed
+  Acitivty Performed
   
      WALKING
     
@@ -25,104 +25,264 @@
 
 ####TimeSignalBodyAccMeanX
 
+  Mean of accelerometer signals of the body on the X-axis in the time domain grouped by subject and activity
+
 ####TimeSignalBodyAccMeanY
+
+  Mean of accelerometer signals of the body on the Y-axis in the time domain grouped by subject and activity
 
 ####TimeSignalBodyAccMeanZ 
 
-####TimeSignalBodyAccStdX 
+  Mean of accelerometer signals of the body on the Z-axis in the time domain grouped by subject and activity
 
-####TimeSignalBodyAccStdY 
+####TimeSignalBodyAccStdX
 
-####TimeSignalBodyAccStdZ 
+  Standard deviation of accelerometer signals of the body on the X-axis in the time domain grouped by subject and activity
 
-####TimeSignalGravityAccMeanX 
+####TimeSignalBodyAccStdY
 
-####TimeSignalGravityAccMeanY 
+  Standard deviation of accelerometer signals of the body on the Y-axis in the time domain grouped by subject and activity  
 
-####TimeSignalGravityAccMeanZ 
+####TimeSignalBodyAccStdZ
 
-####TimeSignalGravityAccStdX 
+  Standard deviation of accelerometer signals of the body on the Z-axis in the time domain grouped by subject and activity
 
-####TimeSignalGravityAccStdY 
+####TimeSignalGravityAccMeanX
 
-####TimeSignalGravityAccStdZ 
+  Mean of accelerometer signals of gravity on the X-asix in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyAccJerkMeanX 
+####TimeSignalGravityAccMeanY
 
-####TimeSignalBodyAccJerkMeanY 
+  Mean of accelerometer signals of gravity on the Y-asix in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyAccJerkMeanZ 
+####TimeSignalGravityAccMeanZ
 
-####TimeSignalBodyAccJerkStdX 
+  Mean of gaccelerometer signals of gravity on the Z-asix in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyAccJerkStdY 
+####TimeSignalGravityAccStdX
 
-####TimeSignalBodyAccJerkStdZ 
+  Standard deviation of accelerometer signals of gravity on the X-axis in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyGyroMeanX 
+####TimeSignalGravityAccStdY
 
-####TimeSignalBodyGyroMeanY 
+  Standard deviation of accelerometer signals of gravity on the Y-axis in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyGyroMeanZ 
+####TimeSignalGravityAccStdZ
 
-####TimeSignalBodyGyroStdX 
+  Standard deviation of accelerometer signals of gravity on the Z-axis in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyGyroStdY 
+####TimeSignalBodyAccJerkMeanX
 
-####TimeSignalBodyGyroStdZ 
+  Mean of accelerometer signals of the body linear velocity on the X-axis in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyGyroJerkMeanX 
+####TimeSignalBodyAccJerkMeanY
 
-####TimeSignalBodyGyroJerkMeanY 
+  Mean of accelerometer signals of the body linear velocity on the Y-axis in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyGyroJerkMeanZ 
+####TimeSignalBodyAccJerkMeanZ
 
-####TimeSignalBodyGyroJerkStdX 
+  Mean of accelerometer signals of the body linear velocity on the Z-axis in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyGyroJerkStdY 
+####TimeSignalBodyAccJerkStdX
 
-####TimeSignalBodyGyroJerkStdZ 
+  Standard deviation of accelerometer signals of the body linear velocity on the X-axis in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyAccMagMean 
+####TimeSignalBodyAccJerkStdY
 
-####TimeSignalBodyAccMagStd 
+  Standard deviation of accelerometer signals of the body linear velocity on the Y-axis in the time domain grouped by subject and activity. 
 
-####TimeSignalGravityAccMagMean 
+####TimeSignalBodyAccJerkStdZ
 
-####TimeSignalGravityAccMagStd 
+  Standard deviation of accelerometer signals of the body linear velocity on the Z-axis in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyAccJerkMagMean 
+####TimeSignalBodyGyroMeanX
 
-####TimeSignalBodyAccJerkMagStd 
+  Mean of body gyration signals on the X-axis in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyGyroMagMean 
+####TimeSignalBodyGyroMeanY
 
-####TimeSignalBodyGyroMagStd 
+  Mean of body gyration signals on the Y-axis in the time domain grouped by subject and activity. 
 
-####TimeSignalBodyGyroJerkMagMean 
+####TimeSignalBodyGyroMeanZ
 
-####TimeSignalBodyGyroJerkMagStd 
+  Mean of body gyration signals on the Z-axis in the time domain grouped by subject and activity. 
 
-####FrequencySignalBodyAccMeanX 
+####TimeSignalBodyGyroStdX
 
-####FrequencySignalBodyAccMeanY 
+  Standard deviation of gyroscope signal of the body on the X-axis in the time domain by subject and activity. 
 
-####FrequencySignalBodyAccMeanZ 
+####TimeSignalBodyGyroStdY
 
-####FrequencySignalBodyAccStdX 
+  Standard deviation of gyroscope signal of the body on the Y-axis in the time domain by subject and activity. 
 
-####FrequencySignalBodyAccStdY 
+####TimeSignalBodyGyroStdZ
 
-####FrequencySignalBodyAccStdZ 
+  Standard deviation of gyroscope signal of the body on the Z-axis in the time domain by subject and activity. 
 
-####FrequencySignalBodyAccJerkMeanX 
+####TimeSignalBodyGyroJerkMeanX
 
-####FrequencySignalBodyAccJerkMeanY 
+  Mean of gyroscope signal of the body linear velocity on the X-axis in the time domain by subject and activity. 
 
-####FrequencySignalBodyAccJerkMeanZ 
+####TimeSignalBodyGyroJerkMeanY
 
-####FrequencySignalBodyAccJerkStdX 
+  Mean of gyroscope signal of the body linear velocity on the Y-axis in the time domain by subject and activity.
 
-####FrequencySignalBodyAccJerkStdY FrequencySignalBodyAccJerkStdZ FrequencySignalBodyGyroMeanX FrequencySignalBodyGyroMeanY FrequencySignalBodyGyroMeanZ FrequencySignalBodyGyroStdX FrequencySignalBodyGyroStdY FrequencySignalBodyGyroStdZ FrequencySignalBodyAccMagMean FrequencySignalBodyAccMagStd FrequencySignalBodyAccJerkMagMean FrequencySignalBodyAccJerkMagStd FrequencySignalBodyGyroMagMean FrequencySignalBodyGyroMagStd FrequencySignalBodyGyroJerkMagMean FrequencySignalBodyGyroJerkMagStd
+####TimeSignalBodyGyroJerkMeanZ
 
+  Mean of gyroscope signal of the body linear velocity on the Z-axis in the time domain by subject and activity.
 
+####TimeSignalBodyGyroJerkStdX
+
+  Standard deviation of gyroscope signal of the body linear velocity on the X-axis in the time domain by subject and activity.
+
+####TimeSignalBodyGyroJerkStdY
+
+  Standard deviation of gyroscope signal of the body linear velocity on the Y-axis in the time domain by subject and activity.
+
+####TimeSignalBodyGyroJerkStdZ
+
+  Standard deviation of gyroscope signal of the body linear velocity on the Z-axis in the time domain by subject and activity.
+
+####TimeSignalBodyAccMagMean
+
+  Mean of the magnitude of accelerometer signals of the body in the time domain by subject and actvity.  
+
+####TimeSignalBodyAccMagStd
+
+  Standard deviation of the magnitude of accelerometer signals of the body in the time domain by subject and activity. 
+
+####TimeSignalGravityAccMagMean
+
+  Mean of the magnitude of accelerometer signals of gravity in the time domain by subject and actvity. 
+
+####TimeSignalGravityAccMagStd
+
+  Standard deviation of the magnitude of accelerometer signals of gravity in the time domain by subject and activity. 
+
+####TimeSignalBodyAccJerkMagMean
+
+  Mean of the magnitude of acceleromter signals of the body linear velocity in the time domian by subject and activity. 
+
+####TimeSignalBodyAccJerkMagStd
+
+ Standard deviation of the magnitude of accelerometer signals of the body linear velocity in the time domain by subject and activity. 
+
+####TimeSignalBodyGyroMagMean
+
+  Mean of the magnitude of gyroscope signals of the body in the time domain by subject and activity. 
+
+####TimeSignalBodyGyroMagStd
+
+  Standard deviation of the magnitude of gyroscope signals of the body in the time domain by subject and activity. 
+
+####TimeSignalBodyGyroJerkMagMean
+
+  Mean of the magnitude of gyroscopy signals of the body linear velocity in the time domain by subject and activity. 
+
+####TimeSignalBodyGyroJerkMagStd
+
+  Standard deviation of the magnitude of gyroscope signals of the body linear velocity in the time domain by subject and activity. 
+
+####FrequencySignalBodyAccMeanX
+
+  Mean of accelerometer signals of the body on the X-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccMeanY
+
+  Mean of accelerometer signals of the body on the Y-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccMeanZ
+
+  Mean of accelerometer signals of the body on the Z-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccStdX
+
+  Standard deviation of accelerometer signals of the body on the X-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccStdY
+
+  Standard deviation of accelerometer signals of the body on the Y-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccStdZ
+
+  Standard deviation of accelerometer signals of the body on the Z-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccJerkMeanX
+
+  Mean of accelerometer signals of the body linear velocity on the X-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccJerkMeanY
+
+  Mean of accelerometer signals of the body linear velocity on the Y-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccJerkMeanZ
+
+  Mean of accelerometer signals of the body linear velocity on the Z-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccJerkStdX
+
+  Standard deviation of accelerometer signals of the body linear velocity on the X-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccJerkStdY
+
+  Mean of accelerometer signals of the body linear velocity on the Y-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccJerkStdZ
+
+  Mean of accelerometer signals of the body linear velocity on the Z-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyGyroMeanX
+
+  Mean of gyroscope signals of the body on the X-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyGyroMeanY
+
+  Mean of gyroscope signals of the body on the Y-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyGyroMeanZ
+
+  Mean of gyroscope signals of the body on the Z-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyGyroStdX
+
+  Standard deviation of gyroscope signals of the body on the X-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyGyroStdY
+
+  Standard deviation of gyroscope signals of the body on the Y-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyGyroStdZ
+
+  Standard deviation of gyroscope signals of the body on the Z-axis in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccMagMean
+
+  Mean of the magnitude of accelerometer signals of the body in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccMagStd
+
+  Standard deviation of the magnitude accelerometer signals of the body in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccJerkMagMean
+
+  Mean of the magnitude of acelerometer signals of the body linear velocity in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyAccJerkMagStd
+
+  Standard deviation of the magnitude of acelerometer signals of the body linear velocity in the frequency domain grouped by subject and activity
+
+####FrequencySignalBodyGyroMagMean
+
+  Mean of the magnitude of gyroscope signals of the body in the frequency domain by subject and activity
+
+####FrequencySignalBodyGyroMagStd
+
+  Standard deviation of the magnitude of gyroscope signals of the body in the frequency domain by subject and activity
+
+####FrequencySignalBodyGyroJerkMagMean
+
+  Mean of the magnitude of gyroscope signals of the body linear velocity in the frequency domain by subject and activity
+
+####FrequencySignalBodyGyroJerkMagStd
+
+  Standard deviation of the magnitude of gyroscope signals of the body linear velocity in the frequency domain by subject and activity
