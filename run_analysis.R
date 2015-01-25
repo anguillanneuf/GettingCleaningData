@@ -44,12 +44,12 @@ activityNums <- read.table("./activity_labels.txt", header=FALSE)
 
 # Replace activity numbers with activity names
 activityNames <- sapply(as.character(data_step2[,2]), switch,
-			"1" = "WALKING",
-			"2" = "WALKING_UPSTAIRS",
-			"3" = "WALKING_DOWNSTAIRS",
-			"4" = "SITTING",
-			"5" = "STANDING",
-			"6" = "LAYING")
+			"1" = "walking",
+			"2" = "walkingupstairs",
+			"3" = "walkingdownstairs",
+			"4" = "sitting",
+			"5" = "standing",
+			"6" = "laying")
 
 # Update the dataste in step 2 with activity names
 data_step3 <- data_step2
@@ -70,9 +70,9 @@ for(i in seq(signalNames)){
 	signalNames[n] <- paste(gsub("t", "TimeSignal", substr(signalNames[n],1,1)), 
 			substr(signalNames[n], 2, nchar(signalNames[n])), sep="")
 # Replace first letter f
-	signalNames[n] <- paste(gsub("f", "FrequencySignal", substr(signalNames[n],1,1)), 
+	signalNames[n] <- paste0(gsub("f", "FrequencySignal", substr(signalNames[n],1,1)), 
 			substr(signalNames[n], 2, nchar(signalNames[n])), sep="")
-	n <- n+1
+	n <- n + 1
 }
 
 # Update the dataset in step 3 with new signal or variable names
